@@ -36,6 +36,7 @@
 	}
 
 ## 注意事项
-> - title, content 字段必填, group选填
+> - title, content, msgType 字段必填, group选填
 > - title字符数最大值100, content最大值4000, group最大值20
+> - msgType类型分别为 0 primary, 1 success, 2 info, 3 warning, 4 fail
 > - 接口调用速率1分钟内最多三次，超出调用的请求不处理
