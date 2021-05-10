@@ -12,12 +12,12 @@ import (
 )
 
 func main() {
-	m, err := message.NewMessage("test title", "test content", 0, "developer group")
+	m, err := message.NewMessage("test title", "test content", 1, "developer group")
 	if err != nil {
 		// handler err
 		return
 	}
-	err = m.Send("abcdef", "abcdefg")
+	err = m.Send("your id", "your secret")
 	if err != nil {
 		// handler err
 		return

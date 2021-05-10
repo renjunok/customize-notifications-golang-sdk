@@ -31,10 +31,11 @@ const (
 )
 
 type Message struct {
-	Title   string `json:"title"`
-	MsgType int    `json:"msg_type"`
-	Content string `json:"content"`
-	Group   string `json:"group,omitempty"`
+	Title     string    `json:"title"`
+	MsgType   int       `json:"msg_type"`
+	Content   string    `json:"content"`
+	Group     string    `json:"group,omitempty"`
+	CreatedAt time.Time `json:"created_at"`
 }
 
 type SendMessage struct {
@@ -42,7 +43,7 @@ type SendMessage struct {
 	Nonce     string `json:"nonce"`
 	Timestamp int64  `json:"timestamp"`
 	Sign      string `json:"sign"`
-	Message   string `json:"message"`
+	Message   `json:"message"`
 }
 
 func (m MsgType) typeConversion() int {
@@ -101,8 +102,8 @@ func (m *Message) Send(pushID, pushSecret string) error {
 		PushID:    pushID,
 		Nonce:     nonceStr,
 		Timestamp: timestamp,
-		Sign:      string(msgJson),
-		Message:   signStr,
+		Sign:      signStr,
+		Message:   *m,
 	}
 
 	return SubmitMessageRequest(sm)
@@ -182,7 +183,7 @@ func GenerateNonceStr() string {
 	bytesStr := []byte(str)
 	var result []byte
 	randNonceStr := rand.New(rand.NewSource(time.Now().UnixNano()))
-	for i := 0; i < 32; i++ {
+	for i := 0; i < 16; i++ {
 		result = append(result, bytesStr[randNonceStr.Intn(len(bytesStr))])
 	}
 	return string(result)
