@@ -20,7 +20,7 @@ func TestGenerateNonceStr(t *testing.T) {
 		name string
 		want int
 	}{
-		{name: "GenerateNonceStr()", want: 32},
+		{name: "GenerateNonceStr()", want: 16},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
