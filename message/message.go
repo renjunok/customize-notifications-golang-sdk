@@ -18,7 +18,7 @@ import (
 	"time"
 )
 
-const CustomizeNotificationUrl = "http://localhost:8500/message"
+const CustomizeNotificationUrl = "https://api.msg.launch.im/message"
 
 type MsgType int
 

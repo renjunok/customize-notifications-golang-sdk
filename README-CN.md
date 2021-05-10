@@ -16,8 +16,8 @@
 
 ## 安装方法
 ### GitHub安装
-> - 执行命令`go get github.com/aliyun/aliyun-oss-go-sdk/oss`获取远程代码包。
-> - 在您的代码中使用`import "github.com/aliyun/aliyun-oss-go-sdk/oss"`引入OSS Go SDK的包。
+> - 执行命令`go get github.com/renjunok/customize-notifications-golang-sdk`获取远程代码包。
+> - 在您的代码中使用`import "github.com/renjunok/customize-notifications-golang-sdk/message"`引入 Go SDK的包。
 >
 ## 使用方法
 > - iOS用户在AppStore商城安装App应用
