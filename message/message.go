@@ -31,11 +31,10 @@ const (
 )
 
 type Message struct {
-	Title     string    `json:"title"`
-	MsgType   int       `json:"msg_type"`
-	Content   string    `json:"content"`
-	Group     string    `json:"group,omitempty"`
-	CreatedAt time.Time `json:"created_at"`
+	Title   string `json:"title"`
+	MsgType int    `json:"msg_type"`
+	Content string `json:"content"`
+	Group   string `json:"group,omitempty"`
 }
 
 type SendMessage struct {
