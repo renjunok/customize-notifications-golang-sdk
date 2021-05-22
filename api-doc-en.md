@@ -1,6 +1,6 @@
 # Development Document
 
-### API URL: https://api.msg.launch.im/message
+### API URL: ht<span>tps://api.msg.launch.im/message
 
 ### Request Method: POST
 

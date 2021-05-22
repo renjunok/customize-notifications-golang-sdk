@@ -1,6 +1,6 @@
 # 开发文档
 
-### 接口地址: https://api.msg.launch.im/message
+### 接口地址: ht<span>tps://api.msg.launch.im/message
 
 ### 请求方法: POST
 
