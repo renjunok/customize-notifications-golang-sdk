@@ -5,9 +5,8 @@
 ## [中文](https://github.com/renjunok/customize-notifications-golang-sdk/blob/main/README-CN.md)
 
 ## SDK
-|||
-|-----|----|
-|[Golang]("https://github.com/renjunok/customize-notifications-golang-sdk")|[Python]("https://github.com/renjunok/customize-notifications-python-sdk")|
+[Golang](https://github.com/renjunok/customize-notifications-golang-sdk)
+[Python](https://github.com/renjunok/customize-notifications-python-sdk)
 
 ## Description
 "My Notice" is an application that allows users to send custom messages to themselves. Developers, operation and maintenance personnel or startup teams can send custom push messages to mobile phones.

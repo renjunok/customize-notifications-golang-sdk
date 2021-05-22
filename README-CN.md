@@ -5,9 +5,8 @@
 ### [README in English](https://github.com/renjunok/customize-notifications-golang-sdk/blob/main/README.md)
 
 ## SDK
-|||
-|-----|----|
-|[Golang]("https://github.com/renjunok/customize-notifications-golang-sdk")|[Python]("https://github.com/renjunok/customize-notifications-python-sdk")|
+[Golang](https://github.com/renjunok/customize-notifications-golang-sdk)
+[Python](https://github.com/renjunok/customize-notifications-python-sdk)
 
 ## 说明
 "我的通知"是一个可以让用户给自己发送自定义消息的App应用，供开发人员、运维人员或初创团队发送自定义推送消息的手机使用。
