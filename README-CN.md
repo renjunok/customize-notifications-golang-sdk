@@ -8,6 +8,11 @@
 [Golang](https://github.com/renjunok/customize-notifications-golang-sdk)
 [Python](https://github.com/renjunok/customize-notifications-python-sdk)
 
+## 开发文档
+**如果使用其它开发语言，请参照开发文档**
+
+[开发文档](api-doc-cn.md)
+
 ## 说明
 "我的通知"是一个可以让用户给自己发送自定义消息的App应用，供开发人员、运维人员或初创团队发送自定义推送消息的手机使用。
 
@@ -62,8 +67,4 @@
 - msgType类型分别为 0 primary, 1 success, 2 info, 3 warning, 4 fail
 - 接口调用速率1分钟内最多三次，超出调用的请求不处理
 
-## 开发文档
-**如果使用其它开发语言，请参照开发文档**
-
-[开发文档](api-doc-cn.md)
 

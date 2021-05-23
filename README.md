@@ -8,6 +8,11 @@
 [Golang](https://github.com/renjunok/customize-notifications-golang-sdk)
 [Python](https://github.com/renjunok/customize-notifications-python-sdk)
 
+## Development Document
+**If you use other development languages, please refer to the development documentation**
+
+[Development Document](api-doc-en.md)
+
 ## Description
 "My Notice" is an application that allows users to send custom messages to themselves. Developers, operation and maintenance personnel or startup teams can send custom push messages to mobile phones.
 
@@ -61,8 +66,4 @@ After you integrate and call the interface in the code, a customized message wil
 - The msgType types are 0 primary, 1 success, 2 info, 3 warning, 4 fail
 - The api call rate is at most three times within 1 minute, and requests beyond the call will not be processed
 
-## Development Document
-**If you use other development languages, please refer to the development documentation**
-
-[Development Document](api-doc-en.md)
 
