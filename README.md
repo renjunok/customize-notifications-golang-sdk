@@ -1,4 +1,4 @@
-# ![logo](./images/32.png) Customize Notifications Golang SDK
+# ![app logo](./images/32.png "app logo") Customize Notifications Golang SDK
 
 [![Go](https://github.com/renjunok/customize-notifications-golang-sdk/actions/workflows/ci.yml/badge.svg)](https://github.com/renjunok/customize-notifications-golang-sdk/actions/workflows/ci.yml)
 
