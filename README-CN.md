@@ -1,4 +1,4 @@
-# "我的通知" Golang SDK 说明文档
+#![app logo](./images/32.png "app logo") "我的通知" Golang SDK 说明文档
 
 [![Go Build](https://github.com/renjunok/customize-notifications-golang-sdk/actions/workflows/ci.yml/badge.svg)](https://github.com/renjunok/customize-notifications-golang-sdk/actions/workflows/ci.yml)
 
